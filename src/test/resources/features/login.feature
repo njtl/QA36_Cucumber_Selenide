@@ -7,6 +7,6 @@ Feature: Login and auth
     * we accept cookies
     * we press Mein Konto icon
     Then we see a login form
-    When we enter valid creds of exisitng user
+    When we enter valid creds of existing user
     And we submit this form
     Then Mein Konto page is loaded
