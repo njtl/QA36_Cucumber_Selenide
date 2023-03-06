@@ -9,4 +9,4 @@ Feature: Login and auth
     Then we see a login form
     When we enter valid creds of existing user
     And we submit this form
-    Then Mein Konto page is loaded
+    Then user icon shows that we're logged in
